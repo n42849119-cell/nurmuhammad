@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar - Premium Avtomobillar Ijarasi</title>
+    <!-- FontAwesome Ikonkalari -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Fayl Ulanishi -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-car-side"></i> RENT<span>CAR</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#">Bosh sahifa</a></li>
+                    <li><a href="#cars">Avtomobillar</a></li>
+                    <li><a href="#features">Afzalliklar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+                <button class="btn-primary">Bog'lanish</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h1>O'zingizga mos <span>Avtomobilni</span> Tanlang</h1>
+            <p>Hamyonbop va lyuks klasdagi avtomobillarni eng qulay shartlarda kunlik ijara oling.</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- SEARCH & FILTERS -->
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Avtomobil nomini qidiring...">
+            <div class="filter-buttons">
+                <button class="filter-btn active">Barchasi</button>
+                <button class="filter-btn">Sedan</button>
+                <button class="filter-btn">SUV</button>
+                <button class="filter-btn">Sport</button>
+                <button class="filter-btn">Elektro</button>
+            </div>
+        </div>
+
+        <!-- CARS LISTING (20 KART) -->
+        <h2 class="section-title" id="cars">Mavjud Avtomobillar (20)</h2>
+        
+        <div class="cars-grid">
+
+            <!-- 1 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmvqMUqNP5lrvE-zWtse6f0VnPRGKTIQcCmuuaydx0EHVhWWSTEwvmfDc&s=10" alt="BMW M4">
+                    <span class="car-badge">Sport</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">BMW M4 Competition</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(5.0 / 32 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 4 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 510 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$180 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQitL8f87SpoIUcQV-lWzFU3mklp552Gy9FWfTYkUkE6o_jBBQZXaE2HoI&s=10" alt="Mercedes C63">
+                    <span class="car-badge">Sedan</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Mercedes-AMG C63</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 28 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 503 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$170 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://issimi-vehicles-cdn.b-cdn.net/publicamlvehiclemanagement/VehicleDetails/282/1.jpg?width=3840&quality=75" alt="Audi RS6">
+                    <span class="car-badge">Universal</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Audi RS6 Avant</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.8 / 19 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 600 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$200 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://tsportline.com/cdn/shop/articles/garnet-red-signature-tesla-model-s-21-inch-aftermarket-wheels-forged-tsw115a-brush-satin-wm-1_1280x.jpg?v=1783367306" alt="Tesla Model S">
+                    <span class="car-badge">Elektro</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Tesla Model S Plaid</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 45 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-bolt"></i> Elektr</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 1020 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$190 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/2025-porsche-911-carrera-t-103-69371b6c2a013.jpg" alt="Porsche 911">
+                    <span class="car-badge">Sport</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Porsche 911 Carrera</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(5.0 / 50 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 2 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 385 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$250 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://bluesky-cogcms.cdn.imgeng.in/media/gqbpqtig/l46125gl_303103154_002.jpg?&width=1500&center=0.5,0.5&mode=crop&scale=both" alt="Range Rover">
+                    <span class="car-badge">SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Range Rover Sport</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.7 / 22 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Dizel</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 7 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 400 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$220 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://content.homenetiol.com/40ca54cbde9945389b135ac0a0dd8c3a.jpg" alt="Chevrolet Tahoe">
+                    <span class="car-badge">SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Chevrolet Tahoe High Country</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(4.6 / 15 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 7 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 420 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$150 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://img.linemedia.com/img/s/car-Chevrolet-Corvette-C8-MY2026-Facelift-Stingray-Convertible---1765056006716615384_big--25120623200579915700.jpg" alt="Chevrolet Corvette">
+                    <span class="car-badge">Sport</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Chevrolet Corvette C8</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 40 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 2 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 495 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$210 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://files2.aster.kz/market/users/2023-11/c941906_f439cb07-0cd0-4400-a1d4-b60f3631abea_L_blur_resolution1920x1440.webp" alt="Hyundai Sonata">
+                    <span class="car-badge">Sedan</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Hyundai Sonata 2023</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(4.5 / 18 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 180 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$60 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://content.homenetiol.com/2000292/2235906/0x0/1a7154242ea04011b2d656bc791942c9.jpg" alt="Kia K5">
+                    <span class="car-badge">Sedan</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Kia K5 GT-Line</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.7 / 25 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 194 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$65 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://avatars.mds.yandex.net/get-verba/997355/2a000001906cf47fc4a29bfe43fc75c3d673/cattouchretcr" alt="Toyota Camry">
+                    <span class="car-badge">Sedan</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Toyota Camry 70</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.8 / 60 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 203 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$70 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://images.csmonitor.com/csm/2015/11/947064_1_1110-mustang_standard.jpg?alias=standard_1200x800" alt="Ford Mustang">
+                    <span class="car-badge">Sport</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Ford Mustang GT</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 35 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 4 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 450 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$140 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 13 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://www.europeanprestige.co.uk/blobs/stock/106/images/c516c687-3607-46e3-aea8-d40edbc13418/1j6a5073-2.jpg?width=2000&height=1333" alt="Mercedes G63">
+                    <span class="car-badge">SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Mercedes-Benz G63 AMG</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(5.0 / 42 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 585 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$350 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://mediapool.bmwgroup.com/cache/P9/202302/P90495526/P90495526-the-new-bmw-x5-m-competition-exterior-02-2023-600px.jpg" alt="BMW X5">
+                    <span class="car-badge">SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">BMW X5 M-Sport</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(4.7 / 20 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 340 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$160 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 15 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://cimg0.ibsrv.net/ibimg/hgm/2000x1125-1/100/538/2016-nissan-gt-r-nismo_100538908.jpg" alt="Nissan GT-R">
+                    <span class="car-badge">Sport</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Nissan GT-R Nismo</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 31 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 4 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 600 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$230 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7MjtudRuUkMsgHfknMk8GY_nsP_3NMA3A90ZQ80JAmpUl_os406BVnSj&s=10" alt="Porsche Taycan">
+                    <span class="car-badge">Elektro</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Porsche Taycan Turbo</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(5.0 / 14 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-bolt"></i> Elektr</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 4 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 680 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$260 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 17 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://electro-motors.top/image/cache/catalog/electrocars/byd%20han%20flagship%204wd/1-1200x800.jpg" alt="BYD Han">
+                    <span class="car-badge">Elektro</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">BYD Han EV</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(4.6 / 27 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-bolt"></i> Elektr</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 517 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$90 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 18 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://cdn.prod.website-files.com/6828c48f315fe0e5d72f04c6/693a7da61dfd2e5bfe1d91f3_Rolls-Royce%20-%20Cullinan%20-%20Mansory%20-%20Black%20-%20Automobili%20Motors%20-%2012.jpg" alt="Rolls Royce Cullinan">
+                    <span class="car-badge">Lyuks</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Rolls-Royce Cullinan</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(5.0 / 10 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 563 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$600 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 19 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://img.autoportaal.ee/cache3/pb/a2_advertisement_photo/NDQ1OTQyfDU4ODY0NjZfNmE4MzA0YzJlN2I4My5qcGc/1600-1066-fit/5886466-lamborghini-urus-2026-green.jpg" alt="Lamborghini Urus">
+                    <span class="car-badge">Sport SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Lamborghini Urus</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.9 / 38 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 5 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 650 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$450 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20 -->
+            <div class="car-card">
+                <div class="car-img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzUvqMor76wgvsswNzJVpUT2-k1pXOAwsjJV9fF6MwgqM3MaN3PpkCXro&s=10" alt="Cadillac Escalade">
+                    <span class="car-badge">SUV</span>
+                </div>
+                <div class="car-content">
+                    <h3 class="car-title">Cadillac Escalade</h3>
+                    <div class="car-rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <span>(4.8 / 16 sharh)</span>
+                    </div>
+                    <div class="car-specs">
+                        <div class="spec-item"><i class="fa-solid fa-gear"></i> Avtomat</div>
+                        <div class="spec-item"><i class="fa-solid fa-gas-pump"></i> Benzin</div>
+                        <div class="spec-item"><i class="fa-solid fa-user"></i> 7 O'rin</div>
+                        <div class="spec-item"><i class="fa-solid fa-gauge-high"></i> 420 ot k.</div>
+                    </div>
+                    <div class="car-footer">
+                        <div class="car-price">$280 <span>/ kun</span></div>
+                        <button class="btn-card">Bron qilish</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- AFZALLIKLAR -->
+        <h2 class="section-title" id="features">Bizning Afzalliklarimiz</h2>
+        <div class="features">
+            <div class="feature-box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>To'liq Sug'urta</h3>
+                <p>Barcha avtomobillarimiz CASCO va OSAGO sug'urtasiga ega.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 Qo'llab-quvvatlash</h3>
+                <p>Mijozlarni qo'llab-quvvatlash xizmati istalgan vaqtda yordam beradi.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Bepul Yetkazib Berish</h3>
+                <p>Shahar bo'ylab avtomobilni istalgan manzilingizga yetkazamiz.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 15px; display: inline-block;">
+                        <i class="fa-solid fa-car-side"></i> RENT<span>CAR</span>
+                    </a>
+                    <p style="color: var(--text-muted); font-size: 14px;">Qulay narxlar va yuqori darajadagi avtomobillar ijarasi.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tezkor Havolalar</h4>
+                    <ul>
+                        <li><a href="#">Bosh sahifa</a></li>
+                        <li><a href="#cars">Avtomobillar</a></li>
+                        <li><a href="#features">Afzalliklar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aloqa</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> +998 90 123 45 67</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> info@rentcar.uz</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Toshkent sh., Amir Temur shoh ko'chasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 RentCar. Barcha huquqlar hifoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
